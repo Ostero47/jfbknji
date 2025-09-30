@@ -1,11 +1,9 @@
-body{
-    background-color: rgb(61, 61, 147);
+body {
+  background-color: rgb(61, 61, 147);
 }
 h1 {
-    color: rgb(67, 67, 196);
+  color: rgb(67, 67, 196);
 }
-header{
-    font-size: small;
+header {
+  font-size: medium;
 }
-    
-
