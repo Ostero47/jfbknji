@@ -1,9 +1,62 @@
-body {
-  background-color: rgb(61, 61, 147);
-}
-h1 {
-  color: rgb(84, 84, 211);
-}
 header {
-  font-size: medium;
+  font-size: small;
+}
+.button1 {
+  margin: 15px;
+  padding: 10px 80px 10px 80px;
+  background-color: orange;
+  border-radius: 15px;
+}
+.button2 {
+  margin: 15px;
+  padding: 8px 25px 8px 25px;
+  background-color: orange;
+  border-radius: 15px;
+}
+.button3 {
+  margin: 15px;
+  padding: 10px 35px 10px 35px;
+  background-color: orange;
+  border-radius: 15px;
+}
+.button4 {
+  margin: 15px;
+  padding: 15px 35px 15px 35px;
+  background-color: orange;
+  border-radius: 15px;
+}
+.logo {
+  width: 150px;
+  height: 70px;
+}
+.regist-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.regist-row input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+}
+.regist-row .full {
+  flex: 100%;
+  height: 50px;
+  border-radius: 6px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .left {
+  text-align: left;
+}
+footer .right {
+  text-align: right;
 }
