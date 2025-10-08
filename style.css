@@ -1,12 +1,7 @@
 header {
   font-size: small;
 }
-.button1 {
-  margin: 15px;
-  padding: 10px 80px 10px 80px;
-  background-color: orange;
-  border-radius: 15px;
-}
+
 .button2 {
   margin: 15px;
   padding: 8px 25px 8px 25px;
@@ -49,14 +44,19 @@ footer {
   display: flex;
   flex-direction: column;
 }
-footer .footer-section3 {
+.footer-section3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .left {
+.left footer {
   text-align: left;
 }
-footer .right {
+.right footer {
   text-align: right;
+}
+.aquarim {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(61, 61, 189);
 }
