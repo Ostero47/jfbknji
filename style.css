@@ -5,7 +5,12 @@ header {
   font-size: small;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+header .center {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
 }
 header.left {
 }
@@ -99,11 +104,27 @@ footer {
   display: flex;
   flex-direction: column;
 }
-.footer-section3 {
+.section-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
+
+footer .left .center .right {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.section-info {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.info {
+  display: flex;
+  text-align: left;
+}
+
 .left-foot {
   text-align: left;
 }
